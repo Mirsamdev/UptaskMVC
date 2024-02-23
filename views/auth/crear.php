@@ -1,5 +1,6 @@
 <div class="contenedor crear">
 <?php include_once __DIR__ . '/../templates/nombre-sitio.php';?>
+<?php include_once __DIR__ . '/../templates/alertas.php';?>
 
   <div class="contenedor-sm">
     <p class="descripcion-pagina">Crea tu cuenta en uptask</p>
@@ -11,7 +12,8 @@
             type="text"
             id="nombre"
             placeholder="Tu Nombre"
-            name="nombre">
+            name="nombre"
+            value="<?php echo $usuario->nombre; ?>">
       </div>
 
       <div class="campo">
@@ -20,7 +22,8 @@
             type="email"
             id="email"
             placeholder="Tu email"
-            name="email">
+            name="email"
+            value="<?php echo $usuario->email; ?>">
       </div>
 
       <div class="campo">
@@ -39,8 +42,8 @@
             type="password"
             id="password2"
             placeholder="Repite Tu Password"
-            name="password">
-
+            name="password"
+            >
       </div>
 
       <input type="submit" class="boton" value="Crear Cuenta">
