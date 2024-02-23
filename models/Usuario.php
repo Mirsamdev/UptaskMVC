@@ -40,7 +40,7 @@ class Usuario extends ActiveRecord {
       self::$alertas['error'][] = 'El password del Cliente es Obligatorio';
     }
 
-    if(strlen($this->password) < 6) {
+    elseif(strlen($this->password) < 6) {
       self::$alertas['error'][] = 'El password debe contener al menos 6 caracteres';
     }
 
