@@ -1,6 +1,7 @@
 <div class="contenedor olvide">
 <?php include_once __DIR__ . '/../templates/nombre-sitio.php';?>
   <div class="contenedor-sm">
+  <?php include_once __DIR__ . '/../templates/nombre-sitio.php';?>
     <p class="descripcion-pagina">Recupera Tu Password</p>
 
     <form class="formulario" method="POST" action="/olvide">

@@ -1,8 +1,8 @@
 <?php 
-
 namespace Classes;
 
 use PHPMailer\PHPMailer\PHPMailer;
+
 
 class Email {
     protected $email;
@@ -23,15 +23,15 @@ class Email {
         $mail->isSMTP();
         $mail->Host = 'sandbox.smtp.mailtrap.io';
         $mail->SMTPAuth = true;
-        $mail->Port = 2525;
+        $mail->Port = 587;
         $mail->Username = '2e637ea235f1f1';
         $mail->Password = '8f0ba72e3afc25';
 
-        $mail->setFrom('cuentas@uptask.com');
-        $mail->addAddress('cuentas@uptask.com', 'uptask.com');
+        $mail->setFrom('cuentas@appsalon.com', 'AppSalon.com');
+        $mail->addAddress($this->email);
         $mail->Subject = 'Confirma tu Cuenta';
 
-        $mail->isHTML(TRUE);
+        $mail->isHTML(true);
         $mail->CharSet = 'UTF-8';
 
         $contenido = '<html>';

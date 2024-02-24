@@ -10,10 +10,10 @@
   margin-bottom: 1rem;
   font-size: 1.3rem;
   max-width: 80rem;
-  margin-left: 10%;
+  margin-left: 1rem;
 
   @include m.nueve {
-    margin-left: 17%;
+    margin-left: 19rem;
   }
   
 
@@ -22,5 +22,14 @@
     border-left: .5rem solid v.$rojo;
     border-right: .5rem solid v.$rojo;
     color: v.$rojo;
+    
+  }
+
+  &.exito {
+    background-color: lighten(v.$verde, 60%);
+    border-left: .5rem solid v.$verde;
+    border-right: .5rem solid v.$verde;
+    color: v.$verde;
+    margin-left: 1rem;
   }
 }

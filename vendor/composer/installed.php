@@ -1,19 +1,19 @@
 <?php return array(
     'root' => array(
-        'name' => 'juandelatorre/up-task_mvc',
+        'name' => 'mery/uptask_mvc',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'ff834e5265b7dda0f7ae527a96d1489243ce473e',
+        'reference' => '695c7c0467969c477e848ab3af7c8e3fc8b4015c',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        'juandelatorre/up-task_mvc' => array(
+        'mery/uptask_mvc' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'ff834e5265b7dda0f7ae527a96d1489243ce473e',
+            'reference' => '695c7c0467969c477e848ab3af7c8e3fc8b4015c',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
