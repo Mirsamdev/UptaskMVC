@@ -3,7 +3,7 @@
 namespace Controllers;
 
 use MVC\Router;
-use classes\Email;
+use Classes\Email;
 use Model\Usuario;
 
 class LoginController {

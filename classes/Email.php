@@ -33,7 +33,7 @@ public function __construct($email, $nombre, $token) {
     $mail->CharSet = 'UTF-8';
 
     $contenido = '<html>';  
-    $contenido = "<p><strong>Hola " . $this->email . "</strong> Has Creado tu cuenta en  
+    $contenido = "<p><strong>Hola " . $this->nombre . "</strong> Has Creado tu cuenta en  
     UpTask, solo debes confirmarla en el siguiente enlace </p>";  
     $contenido. "<p>Presiona aquí: <a href='http://localhost:3000/confirmar  
     ?token=" . $this->token . "'>Confirmar Cuenta</a></p>";  
