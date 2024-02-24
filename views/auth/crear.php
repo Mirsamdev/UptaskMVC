@@ -42,7 +42,7 @@
             type="password"
             id="password2"
             placeholder="Repite Tu Password"
-            name="password"
+            name="password2"
             >
       </div>
 

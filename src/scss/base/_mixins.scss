@@ -17,6 +17,13 @@
     }
 }
 
+@mixin nueve {
+    @media (min-width: v.$nueve) {
+        @content;
+    }
+}
+
+
 
 @mixin boton($bgColor, $colorTexto) {
     background-color: $bgColor;
@@ -56,4 +63,5 @@
     @include tablet {
       font-size: 10rem;
  }
+
 }
