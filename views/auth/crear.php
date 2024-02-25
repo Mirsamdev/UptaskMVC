@@ -1,8 +1,8 @@
 <div class="contenedor crear">
 <?php include_once __DIR__ . '/../templates/nombre-sitio.php';?>
-<?php include_once __DIR__ . '/../templates/alertas.php';?>
 
   <div class="contenedor-sm">
+  <?php include_once __DIR__ . '/../templates/alertas.php';?>
     <p class="descripcion-pagina">Crea tu cuenta en uptask</p>
 
     <form class="formulario" method="POST" action="/crear">
