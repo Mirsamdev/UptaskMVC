@@ -5,11 +5,12 @@ namespace Controllers;
 use MVC\Router;
 
 class DashboardController {
-  
+
   public static function index(Router $router) {
 
-
-    $router->render('dashboard/index' [
+    session_start();
+    
+    $router->render('dashboard/index', [
 
     ]);
   }

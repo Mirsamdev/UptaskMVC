@@ -1,0 +1,39 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.sidebar {
+  list-style: none;
+  background-color: v.$indigo;
+  padding: 2rem;
+  h2 {
+    color: v.$blanco;
+    margin: 0;
+    text-align: center;
+  }
+  .sidebar-nav {
+    margin-top: 5rem;
+    li {
+      padding: 1rem;
+      border-top: 1px solid v.$blanco;
+      margin: 0;
+      
+    }
+
+    a {
+      color: v.$blanco;
+      display: block;
+      margin-bottom: 1.5rem;
+      margin-right: 3rem;
+      padding: .7rem;
+      transition-property: background-color;
+      transition-duration: 300ms;
+      font-weight: 900;
+      font-size: 1.7rem;
+      &:hover {
+        background-color: darken(v.$indigo, 20%);
+        width: 100%;
+        border-radius: .5rem;
+      }
+    }
+  }
+}
