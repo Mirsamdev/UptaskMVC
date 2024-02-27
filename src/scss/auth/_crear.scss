@@ -5,10 +5,12 @@
   margin-top: 5rem;
     .uptask {
       @include m.textoDegradado(v.$morado);
-    }
-    input[type="submit"] {
+
+      input[type="submit"] {
       @include m.boton(v.$morado, v.$blanco);
     }
+    }
+    
    
     .acciones {
       a {
