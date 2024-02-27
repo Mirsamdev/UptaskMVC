@@ -4,9 +4,9 @@
   <nav class="sidebar-nav">
     <li>
 
-      <a href="/dashboard">Proyecto</a>
-      <a href="/crear-proyecto">Crear Proyecto</a>
-      <a href="/perfil">Perfil</a>
+      <a class="<?php echo ($titulo === 'Proyectos') ? 'activo' : ''; ?>" href="/dashboard">Proyecto</a>
+      <a class="<?php echo ($titulo === 'Crear proyecto') ? 'activo' : ''; ?>" href="/crear-proyecto">Crear Proyecto</a>
+      <a class="<?php echo ($titulo === 'Perfil') ? 'activo' : ''; ?>" href="/perfil">Perfil</a>
 
     </li>
   </nav>

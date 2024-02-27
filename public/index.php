@@ -29,6 +29,8 @@ $router->get('/mensaje', [LoginController::class, 'mensaje']);
 $router->get('/confirmar', [LoginController::class, 'confirmar']);
 
 $router->get('/dashboard', [DashboardController::class, 'index']);
+$router->get('/crear-proyecto', [DashboardController::class, 'crear_proyecto']);
+$router->get('/perfil', [DashboardController::class, 'perfil']);
 
 // Comprueba y valida las rutas, que existan y les asigna las funciones del Controlador
 $router->comprobarRutas();

@@ -29,7 +29,8 @@
       transition-duration: 300ms;
       font-weight: 900;
       font-size: 1.7rem;
-      &:hover {
+      &:hover,
+      &.activo {
         background-color: darken(v.$indigo, 20%);
         width: 100%;
         border-radius: .5rem;
