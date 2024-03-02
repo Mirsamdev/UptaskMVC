@@ -28,7 +28,9 @@
       margin-bottom: 2rem;
       display: block;
     }
-
+    input[type="text"] {
+      border: 1px solid v.$gris;
+    }
     .opciones {
       display: flex;
       justify-content: space-between;
