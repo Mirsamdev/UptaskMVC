@@ -30,6 +30,18 @@
       formulario.classList.add('animar');
     }, 0);
 
+    modal.addEventListener('click', function(e) {
+      e.preventDefault();
+
+      if (e.target.classList.contains('cerrar-modal') || e.target.classList.contains('modal') ) {
+        const formulario = document.querySelector('.formulario');
+        formulario.classList.add('cerrar');
+        setTimeout(() => {
+           modal.remove();
+        }, 400);
+   } 
+    })
+
     document.querySelector('body').appendChild(modal);
   }
 
