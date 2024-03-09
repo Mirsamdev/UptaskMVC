@@ -89,6 +89,8 @@
       const datos = new FormData();
       datos.append('nombre', tarea);
 
+      const proyectoParams = new URLSearchParams(window.location.search);
+
       try {
         const url = 'http://localhost:3000/api/tarea';
         const respuesta = await fetch(url, {
