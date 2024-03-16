@@ -14,4 +14,4 @@
       </ul>
     <?php } ?>
 
-<?php include_once __DIR__ . '/../dashboard/header-footer.php';  ?>
+<?php include_once __DIR__ . '/../dashboard/footer-dashboard.php';  ?>
